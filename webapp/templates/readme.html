@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="ContasABida" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contas à Bida</title>
+    <link rel="stylesheet" href="../static/css/main.css" />
+  </head>
+  <body class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-gray-200">
+    <div class="mx-auto text-xl p-4 rounded-lg bg-white">
+      <h1 class="py-4 text-center text-3xl font-extrabold text-gray-900 border-b border-gray-300">Contas à Bida</h1>
+
+      <h3>Sempre que se mudar classes de tailwind correr:</h3>
+      <a class="ml-6 font-mono bg-gray-400 hover:bg-gray-200 rounded-lg border-2 border-gray-700">
+        npx tailwindcss -i ./src/style.css -o ./css/main.css
+      </a>
+      <p class="">ou</p>
+      <a class="ml-6 font-mono bg-gray-400 hover:bg-gray-200 rounded-lg border-2 border-gray-700 ">
+        find ../../ -name '*.html' | entr npx tailwindcss -i ./src/style.css -o css/main.css
+      </a>
+      <h3>Para correr a app, correr:</h3>
+      <a class="ml-6 font-mono bg-gray-400 hover:bg-gray-200 rounded-lg border-2 border-gray-700"> python ./webapp/app.py</a>
+    </div>
+  </body>
+</html>
