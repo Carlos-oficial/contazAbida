@@ -1,0 +1,24 @@
+/* cute colors
+b2a4ff
+fff9ca
+ffdeb4
+ffb4b4
+ */
+
+.rounded_l{
+    border-radius: 25px;
+}
+
+.wrapper{
+    display: inline-block;
+}
+
+.container{
+    padding: 1rem;
+    background-color:#ffb4b4;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem ;
+}
